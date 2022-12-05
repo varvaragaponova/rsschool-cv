@@ -1,8 +1,8 @@
-#### **Varvara Gaponova** ####
+## **Varvara Gaponova** ##
 
 ---
 
-## **Contact information** ##
+### **Contact information** ###
 
 1. **E-mail**: varvara.gaponova21091995@gmail.com
 2. **Phone**: +375 25 796 50 83
@@ -12,7 +12,7 @@
 
 ---
 
-## **About myself** ##
+### **About myself** ###
 
 I would like to learn JavaScript and become a software engineer after graduation of this course. I am purposeful, industrious, sociable, interested in self-development and improvement of professional skills. 
 
