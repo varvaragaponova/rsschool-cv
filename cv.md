@@ -1,5 +1,5 @@
 ## **Varvara Gaponova** ##
-<img src="./WP_20190629_15_04_44_Pro-01.jpeg" alt="my-photo" width=200 height=200>
+<img src="./img/WP_20190629_15_04_44_Pro-01.jpeg" alt="my-photo" width=200 height=200>
 
 ---
 
