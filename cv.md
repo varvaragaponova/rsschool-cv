@@ -1,5 +1,5 @@
 ## **Varvara Gaponova** ##
-<img src="./img/WP_20190629_15_04_44_Pro-01.jpeg" alt="my-photo" width=200 height=200>
+<img src="./assets/img/WP_20190629_15_04_44_Pro-01.jpeg" alt="my-photo" width=200 height=200>
 
 ---
 
@@ -15,14 +15,14 @@
 
 ### **About myself** ###
 
-I would like to learn JavaScript and become a software engineer after graduation of this course. I am purposeful, industrious, sociable, interested in self-development and improvement of professional skills. 
+I would like to learn JavaScript and become a software engineer after graduation of this course. I am purposeful, industrious, sociable, interested in self-development and improvement of professional skills.
 
 ### **Education** ###
-1. Higher: 
+1. Higher:
    - Gomel State Medical University (2013 – 2019)
 2. RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
 
-### **Job** ###	
+### **Job** ###
 - children's doctor(from 2019 to 2022)
 
 ### **Skills** ###
@@ -41,7 +41,7 @@ I would like to learn JavaScript and become a software engineer after graduation
         return 'red';
       } else if (current === 'green') {
         return 'yellow';
-      } 
+      }
     }
 ```
 ### **Languages** ###
