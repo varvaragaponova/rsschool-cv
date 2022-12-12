@@ -1,12 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <title>cv</title>
 </head>
+
 <body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="item-list">
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li class="item-list">
+                    <a href="#summary">Summary</a>
+                </li>
+                <li class="item-list">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="item-list">
+                    <a href="#job">Job</a>
+                </li>
+                <li class="item-list">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="item-list">
+                    <a href="#snippet">Code</a>
+                </li>
+                <li class="item-list">
+                    <a href="#languages">Languages</a>
+                </li>
+                <li class="item-list">
+                    <a href="#hobby">Hobby</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="author">
+            <div class="author__name">
+                <h1>Varvara Gaponova</h1>
+                <p>&lt;Frontend Developer/&gt;</p>
+            </div>
+            <div class="author__photo">
+                <img src="./assets/img/WP_20190629_15_04_44_Pro-01.jpeg" alt="my_photo">
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <section id="contacts">
+                <h2>Contact information</h2>
+                <ul class="list_contacts">
+                    <li class="item">Location: Tbilisi, Georgia</li>
+                    <li class="item">Phone: +375 (25) 795-50-83</li>
+                    <li class="item">
+                        <p>Email:
+                            <a href="mailto:gaponova.varvara21091995@gmail.com">gaponova.varvara21091995@gmail.com</a>
+                        </p>
+                    </li>
+                    <li class="item">
+                        <p>GitHub:
+                            <a href="https://github.com/varvaragaponova">varvaragaponova</a>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="summary">
+                <h2>About myself</h2>
+                <p>I am 27 years old. I would like to learn JavaScript and become a software engineer after
+                    graduation of this
+                    course. I am purposeful, industrious, sociable, interested in self-development and improvement
+                    of
+                    professional
+                    skills.</p>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li class="item">&#10004;Higher: Gomel State Medical University (2013 – 2019)</li>
+                    <li class="item">&#10004;RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+
+            <section id="job">
+                <h2>Job</h2>
+                <ul>
+                    <li class="item">&#10004;Children's doctor(from 2019 to 2022)</li>
+                    <li class="item">
+                        <a href=" https://varvaragaponova.github.io/rsschool-cv/cv">&#10004;Project «CV. Markdown
+                            and Git»</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="item">&#10004; CSS</li>
+                    <li class="item">&#10004; HTML</li>
+                    <li class="item">&#10004; Markdown</li>
+                    <li class="item">&#10004; Git</li>
+                    <li class="item">&#10004; Basic JavaScript</li>
+                </ul>
+            </section>
+
+            <section id="snippet">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+    function updateLight(current) {
+      if (current === 'red') {
+        return 'green';
+      } else if (current === 'yellow') {
+        return 'red';
+      } else if (current === 'green') {
+        return 'yellow';
+      }
+    }
+                        </code>
+                    </pre>
+            </section>
+
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li class="item">&#10004; Russian: native</li>
+                    <li class="item">&#10004; English: A2</li>
+                </ul>
+            </section>
+
+            <section id="hobby">
+                <h2>Hobby</h2>
+                <ul>
+                    <li class="item">
+                        <img src="./assets/img/books.gif" alt="reading">
+                    </li>
+                    <li class="item">
+                        <img src="./assets/img/chat.gif" alt="chatting">
+                    </li>
+                    <li class="item">
+                        <img src="./assets/img/goal.gif" alt="traveling">
+                    </li>
+                    <li class="item">
+                        <img src="./assets/img/paint-palette.gif" alt="drawing">
+                    </li>
+                    <li class="item">
+                        <img src="./assets/img/photo-camera.gif" alt="taking photo">
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li class="item">
+                <a class="logo" href="https://github.com/varvaragaponova">
+                    <img class="icon-github" src="./assets/img/GitHub.png" alt="GitHub Icon">
+                </a>
+            </li>
+            <li class="item">
+                <p>&copy;2022</p>
+            </li>
+            <li class="item">
+                <a href="https://rs.school/js/">
+                    <img class="icon" src="./assets/img/rs_school_js.svg" alt="RsSchool Icon">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
+
 </html>
