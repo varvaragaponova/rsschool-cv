@@ -287,6 +287,37 @@ footer ul li {
     }
 }
 
+@media screen and (max-width: 980px) {
+    .nav-list {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .wrapper section:nth-child(odd)::before,
+    .wrapper section:nth-child(even)::after {
+        top: 30px;
+    }
+
+    .wrapper section:nth-child(odd)::after,
+    .wrapper section:nth-child(even)::before {
+        top: 41px;
+    }
+
+    pre {
+        display: block;
+        margin: 0 0 0 -40px;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .author__photo img {
         width: 200px;
@@ -298,8 +329,52 @@ footer ul li {
         height: 30px;
     }
 
+    .item .icon {
+        width: 80px;
+    }
+
     #snippet pre {
+        font-size: 14px;
+    }
+
+    .title img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper::before {
+        display: none;
+    }
+
+    .wrapper section:nth-child(odd),
+    .wrapper section:nth-child(even) {
+        margin: 0;
         text-align: left;
-        white-space: pre-line;
+        padding-left: 40px;
+    }
+
+    .wrapper section:nth-child(odd)::before,
+    .wrapper section:nth-child(even)::after {
+        width: 15px;
+        height: 15px;
+        left: 3%;
+        top: 30px;
+    }
+
+    .wrapper section:nth-child(odd)::after,
+    .wrapper section:nth-child(even)::before {
+        width: 3%;
+        height: 2px;
+        left: 0;
+        top: 38px;
+    }
+
+    p {
+        padding-right: 5%;
+    }
+
+    .contacts_descr {
+        justify-content: flex-start;
     }
 }
