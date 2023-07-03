@@ -321,6 +321,10 @@ footer ul li {
         top: 41px;
     }
 
+    .wrapper section:nth-child(even) > ul,
+    .wrapper section:nth-child(even) > p {
+        margin-right: 5%;
+    }
     pre {
         display: block;
         margin: 0 0 0 -40px;
@@ -482,5 +486,24 @@ footer ul li {
 
     .contacts_descr {
         justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    li,
+    p {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 14px;
     }
 }
