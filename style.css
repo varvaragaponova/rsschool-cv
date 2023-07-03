@@ -2,6 +2,11 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
 body, html {
     display: flex;
     flex-direction: column;
@@ -11,11 +16,6 @@ body, html {
     padding: 0;
     font-family: "Poppins";
     scroll-behavior: smooth;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
 }
 
 .nav-list {
@@ -36,10 +36,6 @@ body, html {
     list-style-type: none;
 }
 
-.item-list:hover {
-    transform: scale(2.1);
-}
-
 .item-list a {
     text-decoration: none;
     color: #ffffff;
@@ -49,10 +45,7 @@ body, html {
     text-decoration: none;
     color: #000000;
     word-break: break-word;
-}
-
-.item a:hover {
-    text-decoration: underline;
+    transition: all .3s;
 }
 
 .item p {
@@ -203,10 +196,12 @@ ul {
     padding: 10px;
     border: 1px solid #424242;
     border-radius: 50%;
+    transition: all .3s;
 }
 
 footer ul {
     display: flex;
+    min-height: 80px;
     justify-content: space-around;
     align-items: center;
     background-color: #525252;
@@ -227,6 +222,7 @@ footer ul li {
 .icon {
     width: 80px;
     height: 30px;
+    transition: all .3s;
 }
 
 .contacts_descr {
@@ -239,10 +235,6 @@ footer ul li {
 .contacts_descr img {
     width: 30px;
     transition: all .5s;
-}
-
-.contacts_descr img:hover {
-    transform: scale(1.3);
 }
 
 .education_descr {
@@ -262,13 +254,37 @@ footer ul li {
     position: relative;
 }
 
-.title:hover {
-    cursor: pointer;
-}
+@media (any-hover: hover) {
+    .item a:hover {
+        text-decoration: underline;
+    }
 
-.title:hover .title_img {
-    z-index: 1;
-    height: auto;
+    .item-list:hover {
+        transform: scale(1.3);
+    }
+
+    .item > a.logo:hover,
+    .item > a > img.icon:hover {
+        transform: scale(1.3);
+    }
+
+    .contacts_descr img:hover {
+        transform: scale(1.3);
+    }
+
+    .title:hover {
+        cursor: pointer;
+    }
+
+    .title:hover .title_img {
+        z-index: 1;
+        height: auto;
+    }
+
+    #hobby .item img:hover {
+        cursor: grab;
+        transform: scale(1.2);
+    }
 }
 
 @media screen and (max-width: 720px) {
